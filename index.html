@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Money</title>
+    <link rel="icon" type="image/x-icon" href="./assets/moeda.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <main>
+
+        <img class="logo" src="./assets/money (2).png" alt="logo-money" title="Conversor de Moedas">
+
+        <section class="main-container">
+
+            <div class="input-container">
+                <label for="De">Converter de:</label>
+                <select class="moedas-convert">
+                    <optgroup label="Moedas">
+                        <option value="1dolar" selected>US$ Dólar americano</option>
+                        <option value="1euro">€ Euro</option>
+                        <option value="1iene">¥ Iene japonês</option>
+                        <option value="1libra">£ Libra esterlina</option>
+                        <option value="1peso">$ Peso argentino</option>
+                        <option value="1real">R$ Real brasileiro</option>
+                    </optgroup>
+                </select>
+
+                <label for="Para">Para:</label>
+                <select class="moedas">
+                    <optgroup label="Moedas">
+                        <option value="dolar" selected>US$ Dólar americano</option>
+                        <option value="euro">€ Euro</option>
+                        <option value="iene">¥ Iene japonês</option>
+                        <option value="libra">£ Libra esterlina</option>
+                        <option value="peso">$ Peso argentino</option>
+                        <option value="real">R$ Real brasileiro</option>
+                    </optgroup>
+                </select>
+
+                <label for="Valor">Valor:</label>
+                <input type="number" class="input-valor" placeholder="0,00">
+
+                <button button class="botao-convert">Converter</button>
+            </div>
+
+            <div class="main-box">
+
+                <div class="convert-box">
+                    <img class="flag-coin-convert" src="./assets/real.png" alt="real-logo">
+                    <h3 class="name-convert">Real brasileiro</h3>
+                    <h2 class="a-converter">R$ 0,00</h2>
+                </div>
+
+                <div class="arrow-box">
+                    <img class="arrow" src="./assets/arrow.png" alt="arrow-logo">
+                </div>
+
+                <div class="converted-box">
+                    <img class="flag-coin-converted" src="./assets/dolar.png" alt="dolar-logo">
+                    <h3 class="name-converted">Dólar americano</h3>
+                    <h2 class="convertido">$0.00</h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h3 title="Desenvolvido por Gesuito Santos">
+                Copyright &copy; 2024 - Desenvolvido por
+                <a href="https://www.linkedin.com/in/gesuito-santo2/" target="_blank">Gesuito Santos</a>
+            </h3>
+            <h4>
+                Contato:
+                <a href="https://www.linkedin.com/in/gesuito-santo2/" target="_blank" title="LinkedIn"><i
+                        class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/gesuito-santos" target="_blank" title="GitHub"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://wa.me/5571997232448" target="_blank" title="WhatsApp"><i
+                        class="fa fa-whatsapp"></i></a>
+            </h4>
+        </footer>
+
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
