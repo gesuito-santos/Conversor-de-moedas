@@ -1,6 +1,6 @@
 <div align = "center">
   <h1>CONVERSOR DE MOEDAS</h1>
-  <img src = "https://github.com/gesuito-santos/conversor-de-moedas/blob/main/assets/mockup%20conversor%20de%20moedas.png">
+  <img src = "https://github.com/gesuito-santos/conversor-de-moedas/blob/main/assets/responsive-mockup-conversor-de-moedas.png">
 </div>
 <br>
 
